@@ -11,6 +11,15 @@
 		18689F6D2B715E0600F915CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689F6C2B715E0600F915CE /* ContentView.swift */; };
 		18689F6F2B715E0700F915CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18689F6E2B715E0700F915CE /* Assets.xcassets */; };
 		18689F722B715E0700F915CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18689F712B715E0700F915CE /* Preview Assets.xcassets */; };
+		18689F812B715E3800F915CE /* CustomizingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689F782B715E3800F915CE /* CustomizingAnimations.swift */; };
+		18689F822B715E3800F915CE /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689F792B715E3800F915CE /* ExplicitAnimations.swift */; };
+		18689F832B715E3800F915CE /* ImplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689F7A2B715E3800F915CE /* ImplicitAnimations.swift */; };
+		18689F842B715E3800F915CE /* ControllingAnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689F7B2B715E3800F915CE /* ControllingAnimationStack.swift */; };
+		18689F852B715E3800F915CE /* BindingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689F7C2B715E3800F915CE /* BindingAnimations.swift */; };
+		18689F862B715E3800F915CE /* ShowingHidingWithTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689F7D2B715E3800F915CE /* ShowingHidingWithTransitions.swift */; };
+		18689F872B715E3800F915CE /* HelloSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689F7E2B715E3800F915CE /* HelloSwiftUI.swift */; };
+		18689F882B715E3800F915CE /* AnimatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689F7F2B715E3800F915CE /* AnimatingGestures.swift */; };
+		18689F892B715E3800F915CE /* CustomTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18689F802B715E3800F915CE /* CustomTransitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		18689F6C2B715E0600F915CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18689F6E2B715E0700F915CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18689F712B715E0700F915CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18689F782B715E3800F915CE /* CustomizingAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizingAnimations.swift; sourceTree = "<group>"; };
+		18689F792B715E3800F915CE /* ExplicitAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
+		18689F7A2B715E3800F915CE /* ImplicitAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitAnimations.swift; sourceTree = "<group>"; };
+		18689F7B2B715E3800F915CE /* ControllingAnimationStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllingAnimationStack.swift; sourceTree = "<group>"; };
+		18689F7C2B715E3800F915CE /* BindingAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingAnimations.swift; sourceTree = "<group>"; };
+		18689F7D2B715E3800F915CE /* ShowingHidingWithTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowingHidingWithTransitions.swift; sourceTree = "<group>"; };
+		18689F7E2B715E3800F915CE /* HelloSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloSwiftUI.swift; sourceTree = "<group>"; };
+		18689F7F2B715E3800F915CE /* AnimatingGestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatingGestures.swift; sourceTree = "<group>"; };
+		18689F802B715E3800F915CE /* CustomTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,15 @@
 			children = (
 				18689F6A2B715E0600F915CE /* Animations_ios17App.swift */,
 				18689F6C2B715E0600F915CE /* ContentView.swift */,
+				18689F7F2B715E3800F915CE /* AnimatingGestures.swift */,
+				18689F7C2B715E3800F915CE /* BindingAnimations.swift */,
+				18689F7B2B715E3800F915CE /* ControllingAnimationStack.swift */,
+				18689F782B715E3800F915CE /* CustomizingAnimations.swift */,
+				18689F802B715E3800F915CE /* CustomTransitions.swift */,
+				18689F792B715E3800F915CE /* ExplicitAnimations.swift */,
+				18689F7E2B715E3800F915CE /* HelloSwiftUI.swift */,
+				18689F7A2B715E3800F915CE /* ImplicitAnimations.swift */,
+				18689F7D2B715E3800F915CE /* ShowingHidingWithTransitions.swift */,
 				18689F6E2B715E0700F915CE /* Assets.xcassets */,
 				18689F702B715E0700F915CE /* Preview Content */,
 			);
@@ -137,6 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18689F872B715E3800F915CE /* HelloSwiftUI.swift in Sources */,
+				18689F822B715E3800F915CE /* ExplicitAnimations.swift in Sources */,
+				18689F852B715E3800F915CE /* BindingAnimations.swift in Sources */,
+				18689F892B715E3800F915CE /* CustomTransitions.swift in Sources */,
+				18689F832B715E3800F915CE /* ImplicitAnimations.swift in Sources */,
+				18689F882B715E3800F915CE /* AnimatingGestures.swift in Sources */,
+				18689F812B715E3800F915CE /* CustomizingAnimations.swift in Sources */,
+				18689F842B715E3800F915CE /* ControllingAnimationStack.swift in Sources */,
+				18689F862B715E3800F915CE /* ShowingHidingWithTransitions.swift in Sources */,
 				18689F6D2B715E0600F915CE /* ContentView.swift in Sources */,
 				18689F6B2B715E0600F915CE /* Animations_ios17App.swift in Sources */,
 			);
